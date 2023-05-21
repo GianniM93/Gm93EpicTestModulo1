@@ -1,0 +1,235 @@
+body {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0.4em 3em;
+    font-size: 16px;
+}
+#topbar {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px rgba(242, 242, 242, 1);
+    margin-right: 4em;
+}
+#Logo {
+    width: 200px;
+}
+#topbar-icons {
+    display: flex;
+}
+.topbar-icon ion-icon {
+    font-size: 20px;
+    padding: 0 0.5em;
+}
+button {
+    border-radius: 25px;
+    margin-right: 10px;
+    background-color: white;
+    position: relative;
+}
+.avatar1 {
+    width: 25px;
+    height: auto;
+    border-radius: 50px;
+}
+main {
+    width: 100%;
+    display: flex;
+    margin-top: 3em;
+}
+#main-bar {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    border-right: solid 1px rgba(242, 242, 242, 1);
+    padding-right: 2em;
+    margin-bottom: 0.5em;
+}
+#side-bar {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 3em;
+}
+#foryou {
+    display: flex;
+    width: 100%;
+    border-bottom: solid 1px rgba(242, 242, 242, 1);
+    font-size: 14px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+   
+}
+#foryou>p {
+    padding: 0 0.7em;
+}
+.article {
+    margin-top: 2.5em;
+    display: flex;
+    width: 100%;
+}
+h1 {
+    font-size: 22px;
+}
+p>span {
+    padding-right: 0.5em;
+}
+.article {
+    align-items: center;
+}
+.art-text {
+    width: 100%;
+}
+.art-text>* {
+margin: 0.5em;
+width: 100%;
+}
+.art-img {
+    position: relative;
+    width: 175px;
+    height: 150px;
+    padding-left: 10px;
+    margin-right: 1.5em;
+}
+.sub-art {
+    display: flex;
+    width: 100%;
+    font-size: 13px;
+    justify-content: space-between;
+}
+.sub-art1{
+    width: 90%;
+    display: flex;
+    padding: 0;
+    margin-left: 0;
+}
+.sub-art1>li {
+   padding-right: 1.5em;
+   }
+li:first-child {
+    list-style: none;
+}
+li:nth-child(3) {
+    background-color: #e6e4e4;
+   border-radius: 25px;
+   padding-right: 5px;
+   margin-right: 15px;
+}
+li:nth-child(4) {
+    margin-left: 5px;
+}
+
+.sub-art2{
+    width: 10%;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+li{
+    padding-right: 0.5em;
+}
+#twitlink {
+    border-bottom: solid 1px rgba(242, 242, 242, 1);
+    align-items: center;
+}
+#twitter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+   
+}
+#twitter>span {
+    font-size: 20px;
+}
+#twitlink>p,span {
+   text-align: center;
+}
+#twitlink>span {
+    font-size: 14px;
+    color: gray;
+    margin: 1.5em;
+ }
+#twitlink>button {
+    left: 150px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding: 0 2.5em;
+}
+.sidelogo1 {
+    height: 40px;
+    width: auto;
+}
+.sidelogo2 {
+    height: 20px;
+    width: auto;
+}
+.subtwit {
+    display: block;
+}
+#topics {
+    display: inline-block;
+}
+#topics>p span {
+   display: inline-block;
+   margin: 0.4em 0.5em;
+   margin-left: 0;
+   background-color: #e6e4e4;
+   border-radius: 25px;
+   padding: 7px 20px;
+}
+h2 {font-size: 18px;
+margin-top: 2.5em;
+}
+.follow{
+    display: flex;
+    align-items: center;
+    height: 5em;
+    
+}
+.avatar {
+    height: 50px;
+    width: auto;
+    border-radius: 50px;
+    margin-right: 1em;
+}
+.follow>button {
+    position: relative;
+    left: 5em;
+    font-size: 15px;
+    padding: 0.5em 1em;
+}
+h3 {
+    margin-bottom: 0;
+    
+}
+.user {
+    width: 15em;
+}
+.user>p {
+    margin-top: 0.3em;
+    color: gray;
+}
+.sub-art3 {
+    width: 60%;
+    display: flex;
+    padding: 0;
+    margin-left: 0;
+}
+.sub-art3>li {
+    padding-right: 20px;
+}
+#see {
+    margin-left: 7px;
+    color: green;
+    margin-bottom: 4em;
+}
+footer>p span {
+    display: inline-block;
+    margin: 0.3em 0.4em;
+    margin-left: 0;
+    padding: 4px 10px;
+}
